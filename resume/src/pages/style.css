@@ -1,0 +1,78 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+
+
+.resume-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(221, 216, 216);
+  display: flex;
+  flex-direction: column; /* Set to column to stack header and sections */
+}
+
+.header-section {
+
+
+  /* height: 100px; 20% of the resume container height */
+  /* background-color: rgb(243, 245, 248);/ */
+  text-align: center;
+  /* display: flex; */
+  /* line-height:0.8;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;  */
+  color:WHITE;
+  background-color: rgb(108, 108, 141);
+  border-bottom: 4px solid blue;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.sections {
+  display: flex; /* Enable flexbox for sections */
+ /* Take the remaining space */
+}
+
+.left-section {
+  
+  width:40%;
+  /* Equal space for left section */
+  background-color:rgb(221, 216, 216);
+  color: rgb(33, 33, 34); /* Ensure text is readable */
+  /* padding: 10px; Add padding for better spacing */
+}
+
+.right-section {
+  flex: 1; /* Equal space for right section */
+  background-color:   white; /* Ensure text is readable */
+  margin-left: -20px;
+  color: rgb(29, 28, 28); /* Ensure text is readable */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+li{
+  list-style: none;
+  margin-bottom: 4px;
+}
+
+.section{
+  margin-bottom: 5px;
+
+}
+.icons{
+  background-color: rgb(255, 145, 0);
+  padding: 3px;
+  border-radius: 50%;
+
+}
+
+.heading{
+  color:blue;
+  
+}
+/* left section */
+
