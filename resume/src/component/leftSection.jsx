@@ -34,7 +34,7 @@ export default function LeftSection() {
     <>
       <div>
         <ul>
-          <h2 className="section heading">
+          <h2 className="left-heading">
             <FontAwesomeIcon icon={faContactCard} />
             &nbsp;Contact Info
           </h2>
@@ -55,7 +55,7 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="section heading">
+          <h2 className="left-heading">
             <FontAwesomeIcon icon={faLink} />
             &nbsp;Professional Links
           </h2>
@@ -69,7 +69,7 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="section heading">
+          <h2 className="left-heading">
             <FontAwesomeIcon className="icon" icon={faGears} />
             &nbsp; Technical Skills
           </h2>
@@ -80,7 +80,7 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h3 className="section heading">
+          <h3 className="left-heading">
             <FontAwesomeIcon className="icon" icon={faGears} />
             &nbsp; Soft Skills
           </h3>
@@ -91,7 +91,7 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="section heading">
+          <h2 className="left-heading">
             <FontAwesomeIcon icon={faAward} />
             &nbsp;Certification
           </h2>
@@ -102,7 +102,7 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="section heading">
+          <h2 className="left-heading">
             <FontAwesomeIcon icon={faLanguage} />
             &nbsp;Languages
           </h2>

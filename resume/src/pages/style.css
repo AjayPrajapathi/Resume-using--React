@@ -4,8 +4,6 @@
   box-sizing: border-box;
 } */
 
-
-
 .resume-container {
   height: 100vh;
   width: 100vw;
@@ -15,64 +13,76 @@
 }
 
 .header-section {
-
-
-  /* height: 100px; 20% of the resume container height */
   /* background-color: rgb(243, 245, 248);/ */
+
   text-align: center;
-  /* display: flex; */
-  /* line-height:0.8;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center;  */
-  color:WHITE;
-  background-color: rgb(108, 108, 141);
+  display: flex;
+  /* line-height:0.8; */
+  flex-direction: column;
+  /* align-items: center;   */
+  /* justify-content: center;   */
+  color: WHITE;
+  /* background-color: rgb(98, 98, 201); */
+  background: linear-gradient(blue ,rgb(221, 216, 216));
   border-bottom: 4px solid blue;
   margin-bottom: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .sections {
-  display: flex; /* Enable flexbox for sections */
- /* Take the remaining space */
+  display: flex;
 }
 
 .left-section {
-  
-  width:40%;
+  width: 43%;
   /* Equal space for left section */
-  background-color:rgb(221, 216, 216);
+  background-color: rgb(221, 216, 216);
   color: rgb(33, 33, 34); /* Ensure text is readable */
-  /* padding: 10px; Add padding for better spacing */
+  /* padding: 10px; */
 }
 
 .right-section {
+  /* margin-top: -80px; */
   flex: 1; /* Equal space for right section */
-  background-color:   white; /* Ensure text is readable */
+  background-color: white; /* Ensure text is readable */
   margin-left: -20px;
   color: rgb(29, 28, 28); /* Ensure text is readable */
   padding: 10px; /* Add padding for better spacing */
+  border-left: 2px solid blue;
 }
 
-li{
+li {
   list-style: none;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
-.section{
+/* .section{
   margin-bottom: 5px;
 
-}
-.icons{
+} */
+.icons {
   background-color: rgb(255, 145, 0);
   padding: 3px;
   border-radius: 50%;
-
 }
 
-.heading{
-  color:blue;
-  
+.left-heading {
+  color: blue;
+  /* text-decoration: underline; */
+  background:linear-gradient(to right,white,rgb(221, 216, 216)) ;
+  /* background-color: white; */
+  /* padding: 3px; */
+   /* display: inline-block; */
 }
+.right-heading {
+  color: blue;
+  /* text-decoration: underline; */
+  background:linear-gradient(to right,rgb(221, 216, 216),white);
+  /* display: inline-block; */
+  /* padding-left: 20px; */
+  background-color: #dddde6;
+   /* border-radius:2px 4px 8px 20px ; */
+}
+
+
 /* left section */
-
