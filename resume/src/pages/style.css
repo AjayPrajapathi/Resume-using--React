@@ -7,14 +7,14 @@
 .resume-container {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(221, 216, 216);
+  /* background-color: rgb(221, 216, 216); */
   display: flex;
   flex-direction: column; /* Set to column to stack header and sections */
 }
 
 .header-section {
   /* background-color: rgb(243, 245, 248);/ */
-
+ height:100px;
   text-align: center;
   display: flex;
   /* line-height:0.8; */
@@ -23,9 +23,10 @@
   /* justify-content: center;   */
   color: WHITE;
   /* background-color: rgb(98, 98, 201); */
-  background: linear-gradient(blue ,rgb(221, 216, 216));
+  /* background: linear-gradient(blue ,rgb(221, 216, 216)); */
+  background-color: #3a95e4;
   border-bottom: 4px solid blue;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* text-decoration: underline; */
 }
 
@@ -34,15 +35,19 @@
 }
 
 .left-section {
-  width: 43%;
+  width: 38%;
+  margin-left: -20px;
   /* Equal space for left section */
-  background-color: rgb(221, 216, 216);
-  color: rgb(33, 33, 34); /* Ensure text is readable */
+  /* background-color: rgb(221, 216, 216); */
+  background-color: white;
+  color: rgb(33, 33, 34); 
+  /* text-decoration: underline; */
+  /* color:#4A4A4A */
   /* padding: 10px; */
 }
 
 .right-section {
-  /* margin-top: -80px; */
+  /* margin-top: -20px; */
   flex: 1; /* Equal space for right section */
   background-color: white; /* Ensure text is readable */
   margin-left: -20px;
@@ -67,20 +72,22 @@ li {
 }
 
 .left-heading {
+  height: auto;
   color: blue;
-  /* text-decoration: underline; */
-  background:linear-gradient(to right,white,rgb(221, 216, 216)) ;
+  text-decoration: underline;
+  /* margin-bottom: -1px; */
+  /* background:linear-gradient(to right,white,rgb(221, 216, 216)) ; */
   /* background-color: white; */
   /* padding: 3px; */
    /* display: inline-block; */
 }
 .right-heading {
   color: blue;
-  /* text-decoration: underline; */
-  background:linear-gradient(to right,rgb(221, 216, 216),white);
+  text-decoration: underline;
+  /* background:linear-gradient(to right,rgb(221, 216, 216),white); */
   /* display: inline-block; */
   /* padding-left: 20px; */
-  background-color: #dddde6;
+  /* background-color: #dddde6; */
    /* border-radius:2px 4px 8px 20px ; */
 }
 

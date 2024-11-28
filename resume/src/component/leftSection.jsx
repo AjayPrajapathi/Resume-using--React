@@ -24,6 +24,7 @@ import {
   faMailReply,
   faEnvelope,
   faCertificate,
+  faUserGraduate,
   faAward,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
@@ -32,13 +33,13 @@ import data from "../data.json";
 export default function LeftSection() {
   return (
     <>
-      <div>
+      {/* <div>
         <ul>
-          <h2 className="left-heading">
+          <h3 className="left-heading"  style={{marginTop:"-5px"}}>
             <FontAwesomeIcon icon={faContactCard} />
             &nbsp;Contact Info
-          </h2>
-          {/* <hr style={{ borderTop: '2px solid black', boxShadow: '0 3px 0 black', margin: '20px auto', width: '95%' }} /> */}
+          </h3>
+
           <li>
             <FontAwesomeIcon icon={faLocation} />
             &nbsp;Hyderabad,Telangana
@@ -52,13 +53,13 @@ export default function LeftSection() {
             &nbsp;{data.email}
           </li>
         </ul>
-      </div>
+      </div> */}
       <div>
         <ul>
-          <h2 className="left-heading">
+          <h3 className="left-heading">
             <FontAwesomeIcon icon={faLink} />
             &nbsp;Professional Links
-          </h2>
+          </h3>
           <li>
             <a href={data.linkedIn}>LinkedIn</a>
           </li>
@@ -69,10 +70,10 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="left-heading">
+          <h3 className="left-heading">
             <FontAwesomeIcon className="icon" icon={faGears} />
             &nbsp; Technical Skills
-          </h2>
+          </h3>
           {data.Technicalskills.map((skill, index) => (
             <li key={index}>{skill}</li>
           ))}
@@ -91,21 +92,55 @@ export default function LeftSection() {
       </div>
       <div>
         <ul>
-          <h2 className="left-heading">
+          <h3 className="left-heading">
             <FontAwesomeIcon icon={faAward} />
             &nbsp;Certification
-          </h2>
+          </h3>
           {data.certification.map((certificate, index) => (
             <li key={index}>{certificate}</li>
           ))}
         </ul>
       </div>
-      <div>
+      {/* <div>
         <ul>
-          <h2 className="left-heading">
+          <h3 className="left-heading">
             <FontAwesomeIcon icon={faLanguage} />
             &nbsp;Languages
-          </h2>
+          </h3>
+          {data.languages.map((language, index) => (
+            <li key={index}>{language}</li>
+          ))}
+        </ul>
+      </div> */}
+      <div>
+        <ul>
+          <h3 className="left-heading">
+            {" "}
+            <FontAwesomeIcon icon={faUserGraduate} />
+            &nbsp;<span className="decoration">Education</span>
+          </h3>
+          {/* {data.education.map((course, index) => (
+            <div key={index}>
+              <strong>{course.Institution}</strong>
+              <br />
+
+              <strong>{course.name}</strong>
+              <p style={{ marginTop: "-1px", color: "ash" }}>
+                {course.location}
+              </p>
+            </div>
+          ))} */}
+          <p><strong>Sri Chaitanya Junior Collage</strong><br/>Intermediate<br/><b>MPC</b><br/>Hyderabad-Telangana</p>
+          <p>Brilliant Institute Of Engineering And Technology<br/><b>B-Tech</b><br/>Electronics And Communication Engineering<br/>Hyderabad-Telangana</p>
+           
+        </ul>
+      </div>
+       <div>
+        <ul>
+          <h3 className="left-heading">
+            <FontAwesomeIcon icon={faLanguage} />
+            &nbsp;Languages
+          </h3>
           {data.languages.map((language, index) => (
             <li key={index}>{language}</li>
           ))}

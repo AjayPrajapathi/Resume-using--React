@@ -2,11 +2,11 @@
   "name": "AJAY PRAJAPATHI",
   "birth": "1 March 1999",
   "mobileNo": "6309624923",
-  "email": "ajayprajapath14@gmail.com",
+  "email": "ajayprajapathi4@gmail.com",
   "address": "New Hafeezpet,Kodapur,Rangareddy,Hyderabad,Telangana-500049",
   "linkedIn": "https://www.linkedin.com/in/ajay-prajapathi-014486265?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKodqfm7fRRKK%2FozQhJULWA%3D%3D",
   "gitHub":"https://github.com/AjayPrajapathi",
-  "profileSummary": "A passionate and dedicated fresher MERN stack developer with strong skills in React.js, Node.js, MongoDB, and Redux. Experienced in building responsive web applications and implementing RESTful APIs. Proficient in version control with Git, having worked on collaborative projects through GitHub. Developed various projects such as hospital management systems, e-commerce platforms, and inventory applications, showcasing both frontend and backend development capabilities. Eager to contribute to innovative teams and apply my skills to real-world web development challenges.",
+  "profileSummary": "A passionate and dedicated MERN stack developer with strong skills in React.js, Node.js, MongoDB, and Redux. Experienced in building responsive web applications and implementing RESTful APIs. Proficient in version control with Git, having worked on collaborative projects through GitHub. Developed various projects such as hospital management systems, e-commerce platforms, and inventory applications, showcasing both frontend and backend development capabilities. Eager to contribute to innovative teams and apply my skills to real-world web development challenges.",
   "Technicalskills": [
     "React.js",
     "Node.js",
@@ -21,8 +21,8 @@
   "softSkills":["Teamwork and Collaboration ","Adaptability","Time Management"],
   "languages": ["English", "Hindi", "Telugu"],
   "certification": [
-    "Bootcamp | React Full Stack Development",
-    "Bootcamp | Node.js Full Stack Development",
+     "React Full Stack Development",
+     "Node.js Full Stack Development",
     "Bootcamp | DSA in Java"
   ],
   "education": [
