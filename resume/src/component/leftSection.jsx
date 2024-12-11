@@ -61,10 +61,10 @@ export default function LeftSection() {
             &nbsp;Professional Links
           </h3>
           <li>
-            <a href={data.linkedIn}>LinkedIn</a>
+            <a href={data.linkedIn} className="links"> LinkedIn</a>
           </li>
           <li>
-            <a href={data.gitHub}>Github</a>
+            <a href={data.gitHub} className="links">Github</a>
           </li>
         </ul>
       </div>
@@ -96,9 +96,12 @@ export default function LeftSection() {
             <FontAwesomeIcon icon={faAward} />
             &nbsp;Certification
           </h3>
-          {data.certification.map((certificate, index) => (
+          {/* {data.certification.map((certificate, index) => (
             <li key={index}>{certificate}</li>
-          ))}
+          ))} */}
+          <li><a href="https://certificate.codingninjas.com/view/08cf0a4b6f49e5ad" className="links">React Full Stack Development</a></li>
+          <li><a href="">Node.js Full Stack Development</a></li>
+          <li><a href="https://certificate.codingninjas.com/view/b8aafb8f0a06672a" className="links">Bootcamp | DSA in Java</a></li>
         </ul>
       </div>
       {/* <div>

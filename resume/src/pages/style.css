@@ -1,95 +1,103 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
-
-.resume-container {
-  height: 100vh;
-  width: 100vw;
-  /* background-color: rgb(221, 216, 216); */
-  display: flex;
-  flex-direction: column; /* Set to column to stack header and sections */
+.resume{
+  width: 100%;
 }
-
-.header-section {
-  /* background-color: rgb(243, 245, 248);/ */
- height:100px;
-  text-align: center;
+.header-section{
+  margin-top: -30px;
+  /* background-color: aqua; */
   display: flex;
-  /* line-height:0.8; */
   flex-direction: column;
-  /* align-items: center;   */
-  /* justify-content: center;   */
-  color: WHITE;
-  /* background-color: rgb(98, 98, 201); */
-  /* background: linear-gradient(blue ,rgb(221, 216, 216)); */
-  background-color: #3a95e4;
-  border-bottom: 4px solid blue;
-  /* margin-bottom: 20px; */
-  /* text-decoration: underline; */
+  margin-top:-10px ;
+  justify-items: center;
+  text-align: center;
 }
-
-.sections {
+.location{
+  margin-top: -20px;
+}
+.header-data{
+  margin-top: -30px;
   display: flex;
+  justify-content: space-around;
+  
 }
-
-.left-section {
-  width: 38%;
-  margin-left: -20px;
-  /* Equal space for left section */
-  /* background-color: rgb(221, 216, 216); */
-  background-color: white;
-  color: rgb(33, 33, 34); 
-  /* text-decoration: underline; */
-  /* color:#4A4A4A */
-  /* padding: 10px; */
+hr{
+  margin-top: -10px;
 }
+.profile-summary{
+margin-top: -10px;
 
-.right-section {
-  /* margin-top: -20px; */
-  flex: 1; /* Equal space for right section */
-  background-color: white; /* Ensure text is readable */
-  margin-left: -20px;
-  color: rgb(29, 28, 28); /* Ensure text is readable */
-  padding: 10px; /* Add padding for better spacing */
-  border-left: 2px solid blue;
 }
-
-li {
-  list-style: none;
-  margin-bottom: 5px;
+a{
+  color:blue;
+  text-decoration: none;
 }
-
-/* .section{
-  margin-bottom: 5px;
-
-} */
-.icons {
-  background-color: rgb(255, 145, 0);
-  padding: 3px;
-  border-radius: 50%;
+.main-headings{
+  background-color: rgb(252, 236, 236);
+  /* border-radius: 25px; */
+  
 }
-
-.left-heading {
-  height: auto;
-  color: blue;
-  text-decoration: underline;
-  /* margin-bottom: -1px; */
-  /* background:linear-gradient(to right,white,rgb(221, 216, 216)) ; */
-  /* background-color: white; */
-  /* padding: 3px; */
-   /* display: inline-block; */
+.profile-summary p{
+  margin-top: -10px;
 }
-.right-heading {
-  color: blue;
-  text-decoration: underline;
-  /* background:linear-gradient(to right,rgb(221, 216, 216),white); */
-  /* display: inline-block; */
-  /* padding-left: 20px; */
-  /* background-color: #dddde6; */
-   /* border-radius:2px 4px 8px 20px ; */
+.soft-skills ul{
+  display:flex;
+  justify-content: space-between;
+}
+.tech-skills{
+margin-top: -10px;
+/* margin-bottom: -30px; */
+
 }
 
 
-/* left section */
+.tech-skills ul{
+  margin-top: -10px;
+}
+.soft-skills{
+  margin-top: -10px;
+}
+.soft-skills ul{
+  margin-top: -15px;
+}
+.heading{
+display: flex;
+justify-content: space-between;
+}
+.live{
+  padding-right: 40px;
+}
+.living-tim{
+  margin-left: 160px;
+}
+.foodie-living{
+  margin-left: 230px;
+
+}
+
+.foodie-project-section{
+  margin-top: -10px;
+
+}
+.foodie-project-section h3{
+  margin-top: -10px;
+}
+.foodie-project-section .heading{
+margin-top: -10px;
+}
+
+.foodie-tech{
+  margin-top: -0.2px;
+  /* background-color: red; */
+}
+.description{
+  margin-top: -13px;
+  /* background-color:green ; */
+
+}
+.project-ul{
+margin-top: -10px;
+}
+
+
+.certification-ul{
+  margin-top: -10px;
+}

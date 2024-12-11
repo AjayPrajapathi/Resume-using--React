@@ -73,7 +73,7 @@ export default function RightSection() {
           </div>
           <p style={{ textAlign: "justify", paddingRight: "30px" }}>
             <strong>Tech Stack : </strong>
-            <span>React,Node.js,Express.js,MongoDB,JWT,Stripe</span>
+            <span>MongoDB,Express.js,React,Node.js,JWT,Tailwind CSS</span>
             <br />
             <strong>Purpose :</strong>Converts user-input text into images with
             secure authentication and payment features.
@@ -82,17 +82,56 @@ export default function RightSection() {
             ---Follows the MVC (Model-View-Controller) pattern for clean and
             modular code organization.
             <br />
-            ---Payment integration using <strong>Stripe</strong> for premium
-            services
-            <br />
+           
             ---User authentication using JSON Web Tokens (JWT) for secure access
             <br />
             ---Responsive design and clean UI using Tailwind CSS and Font
             Awesome icons.
             <br />
-            RESTful API endpoints for client-server communication.
+            ---RESTful API endpoints for client-server communication.
           </p>
         </div>
+        
+        <div style={{ marginBottom: "30px" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginRight: "30px",
+              marginBottom: "-20px",
+            }}
+          >
+            <h3 style={{ marginBottom: "-7px", marginTop: "-10px" }}>
+              Happy Shopping
+            </h3>
+            <a href="https://github.com/AjayPrajapathi/AI-Text-to-Image-Generator">
+              GITHUB
+            </a>
+          </div>
+
+          <p style={{ textAlign: "justify", paddingRight: "30px" }}>
+            <strong>Tech Stack : </strong>
+            <span>React,Node.js,Express.js,MongoDB,JWT</span>
+            <br />
+            <strong>Purpose :</strong>A full-stack application that allows users
+            to browse, add, update, and purchase products, with secure user
+            authentication and payment integration.
+            <br />
+            <strong>Features :</strong> <br />
+            ---Built using MVC pattern with RESTful APIs.
+            <br />
+            ---Product browsing, adding to cart, and purchasing.
+            <br />
+            ---Advanced search functionality with category, price, and rating
+            filters.
+            <br /> ---Users can leave reviews and ratings for products they’ve
+            purchased.
+            <br />
+            ---Built using MVC pattern with RESTful APIs.<br/>
+           
+          </p>
+        </div>
+
 
         <div style={{ marginBottom: "30px" }}>
           <div
@@ -130,45 +169,8 @@ export default function RightSection() {
             <br />
             Reduce paper Works and patient can easily track their status
             regarding appointments, bills and availability of doctors
-          </p>
-        </div>
-
-        <div style={{ marginBottom: "30px" }}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginRight: "30px",
-              marginBottom: "-20px",
-            }}
-          >
-            <h3 style={{ marginBottom: "-7px", marginTop: "-10px" }}>
-              Happy Shopping
-            </h3>
-            <a href="https://github.com/AjayPrajapathi/AI-Text-to-Image-Generator">
-              GITHUB
-            </a>
-          </div>
-
-          <p style={{ textAlign: "justify", paddingRight: "30px" }}>
-            <strong>Tech Stack : </strong>
-            <span>React,Node.js,Express.js,MongoDB,JWT</span>
-            <br />
-            <strong>Purpose :</strong>A full-stack application that allows users
-            to browse, add, update, and purchase products, with secure user
-            authentication and payment integration.
-            <br />
-            <strong>Features :</strong> <br />
-            ---Built using MVC pattern with RESTful APIs.
-            <br />
-            ---Product browsing, adding to cart, and purchasing.
-            <br />
-            ---Advanced search functionality with category, price, and rating
-            filters.
-            <br /> ---Users can leave reviews and ratings for products they’ve
-            purchased.
-            <br />
-            ---Built using MVC pattern with RESTful APIs.<br/>
+            <br/>
+            <br/>
             <br/>&nbsp;&nbsp;&nbsp;&nbsp;-----------------Thank You-------------------
           </p>
         </div>
