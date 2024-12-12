@@ -16,16 +16,20 @@ const Resume = () => {
         <h2>Ajay Prajapathi</h2>
         <p className="location">Mern Developer from Hyderabad,Telangana</p>
         <div className="header-data">
-          <p><strong>Ph No:</strong> 6309624923</p>
-          <p><strong>Gmail:</strong> prajapathi6821@gmail.com</p>
+          <p>
+            <strong>Ph No:</strong> 6309624923
+          </p>
+          <p>
+            <strong>Gmail:</strong> prajapathi6821@gmail.com
+          </p>
           <p>
             <a href={data.linkedIn} className="links">
-             <span className="font-light">LinkedIn</span> 
+              <span className="font-light">LinkedIn</span>
             </a>
           </p>
           <p>
             <a href={data.gitHub} className="links">
-            <span className="font-light"> Github</span>
+              <span className="font-light"> Github</span>
             </a>
           </p>
         </div>
@@ -48,10 +52,19 @@ const Resume = () => {
         <div className="tech-skills">
           <h3 className="main-headings">Technical Skills</h3>
           <ul>
-            <li><strong>Frontend:</strong> React.js, HTML, CSS, JavaScript, Tailwind CSS</li>
-            <li><strong>Backend:</strong> Node.js, Express.js</li>
-            <li><strong>Database:</strong> MongoDB, Mongoose</li>
-            <li><strong>Tools:</strong> Git, GitHub, VS code Editor</li>
+            <li>
+              <strong>Frontend:</strong> React.js, HTML, CSS, JavaScript,
+              Tailwind CSS
+            </li>
+            <li>
+              <strong>Backend:</strong> Node.js, Express.js
+            </li>
+            <li>
+              <strong>Database:</strong> MongoDB, Mongoose
+            </li>
+            <li>
+              <strong>Tools:</strong> Git, GitHub, VS code Editor
+            </li>
           </ul>
         </div>
         <div className="soft-skills ">
@@ -66,16 +79,19 @@ const Resume = () => {
       <div className="foodie-project-section">
         <h3 className="main-headings">Projects</h3>
         <div className="heading">
-          {" "}
-          <strong>
-            Foodie Express{" "}
-            <span className="foodie-living">
-              <a>LIVE</a>
-            </span>{" "}
-          </strong>{" "}
+          <strong>Foodie Express </strong>
+          <span className="font-light">
+            <a href="https://foodieexpress-clients.onrender.com">Client-LIVE</a>
+          </span>
+          <span className="font-light">
+            <a href="https://foodieexpress-8j9o.onrender.com">Admin-LIVE</a>
+          </span>
+
           <span className="live">
-            <a><span className="font-light"> Github File</span></a>
-          </span>{" "}
+            <a href="https://github.com/AjayPrajapathi/FoodieExpress">
+              <span className="font-light"> Github File</span>
+            </a>
+          </span>
         </div>
 
         <p className="foodie-tech">
@@ -89,19 +105,23 @@ const Resume = () => {
         <ul className="project-ul">
           <li>
             <span className="font-light"> Client Panel:</span>
-           Allows users to browse, add items to the cart, and
-            place orders.
+            Allows users to browse, add items to the cart, and place orders.
           </li>
           <li>
             <span className="font-light"> Admin Panel:</span>
-            Enables admins to manage the menu by adding new items
-            to the food list.
+            Enables admins to manage the menu by adding new items to the food
+            list.
           </li>
           <li>
             {" "}
-       <span className="font-light">Payment Integration:</span> Enables secure transactions by integrating the Stripe payment gateway.
+            <span className="font-light">Payment Integration:</span> Enables
+            secure transactions by integrating the Stripe payment gateway.
           </li>
-          <li> <span className="font-light">Order Tracking:</span> Users can track the status of their orders in real time. </li>
+          <li>
+            {" "}
+            <span className="font-light">Order Tracking:</span> Users can track
+            the status of their orders in real time.{" "}
+          </li>
         </ul>
       </div>
 
@@ -111,11 +131,15 @@ const Resume = () => {
           <strong>
             Text to Image Generator &nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <span className="living-tim">
-              <a>LIVE</a>
-            </span>{" "}
-          </strong>{" "}
+              <a href="https://ai-text-to-image-generator-clients.onrender.com">
+                LIVE
+              </a>
+            </span>
+          </strong>
           <span className="live">
-            <a href="https://ai-text-to-image-generator-clients.onrender.com"><span className="font-light"> Github File</span></a>
+            <a href="https://github.com/AjayPrajapathi/AI-Text-to-Image-Generator">
+              <span className="font-light"> Github File</span>
+            </a>
           </span>{" "}
         </div>
         <p className="foodie-tech">
@@ -128,29 +152,27 @@ const Resume = () => {
         </p>
         <ul className="project-ul">
           <li>
-          <span className="font-light">Image Generation:</span>
-             Users input text, and the application uses the
-            ClipDrop API to generate relevant images.
+            <span className="font-light">Image Generation:</span>
+            Users input text, and the application uses the ClipDrop API to
+            generate relevant images.
           </li>
           <li>
-          <span className="font-light">  Real-time Image Display:</span>
-           Generated images are shown immediately
-            after the text is submitted.
+            <span className="font-light"> Real-time Image Display:</span>
+            Generated images are shown immediately after the text is submitted.
           </li>
           <li>
-          <span className="font-light"> Image Download:</span>
-            Users can download the generated image after it is
-            created.
+            <span className="font-light"> Image Download:</span>
+            Users can download the generated image after it is created.
           </li>
           <li>
-          <span className="font-light">   User Authentication:</span>
-          JWT is used for user authentication to ensure
-            secure access to the application.
+            <span className="font-light"> User Authentication:</span>
+            JWT is used for user authentication to ensure secure access to the
+            application.
           </li>
           <li>
-          <span className="font-light">  Responsive Design:</span>
-           The app is designed with Tailwind CSS to ensure a
-            responsive and user-friendly interface.
+            <span className="font-light"> Responsive Design:</span>
+            The app is designed with Tailwind CSS to ensure a responsive and
+            user-friendly interface.
           </li>
         </ul>
       </div>
@@ -183,7 +205,6 @@ const Resume = () => {
         <ul>
           <li>
             <span>
-              
               Completed <strong> B.Tech</strong> in Electronics and
               Communication Engineering (ECE) from Brilliant Group of Technical
               Institutions, Hyderabad, Telangana.
@@ -201,10 +222,9 @@ const Resume = () => {
       <div className="education-section">
         <h3 className="main-headings">Languages</h3>
         <ul>
-   <li>English</li>
-   <li>Hindi</li>
-   <li>Telugu</li>
-          
+          <li>English</li>
+          <li>Hindi</li>
+          <li>Telugu</li>
         </ul>
       </div>
     </div>
@@ -235,7 +255,6 @@ const Resume = () => {
     //     </div>
 
     // </div>
-
   );
 };
 
